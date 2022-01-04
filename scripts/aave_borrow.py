@@ -46,8 +46,8 @@ def main():
     borrow_tx.wait(1)
     print("Borrowed some DAI")
     get_borrowable_data(lending_pool, account)
-    # repay_all(amount, lending_pool, account)
-    # print("You just deposited, borrowed and repayed!")
+    repay_all(amount, lending_pool, account)
+    print("You just deposited, borrowed and repayed!")
 
 
 def repay_all(amount, lending_pool, account):
